@@ -15,11 +15,11 @@ export default function HeroSection() {
 
   // Background slideshow images
   const backgroundImages = [
-        '/manhelment.jpg',
+        '/Close up hand holding hard hat site construction background ,engineer architecture helmet protect _ Premium Photo.jpg',
         '/Close up hand holding hard hat site construction background ,engineer architecture helmet protect _ Premium Photo.jpg',
         '/manhelment.jpg',        
         '/Close up hand holding hard hat site construction background ,engineer architecture helmet protect _ Premium Photo.jpg',
-        '/manhelment.jpg',
+        '/Close up hand holding hard hat site construction background ,engineer architecture helmet protect _ Premium Photo.jpg',
 
     ]
 
