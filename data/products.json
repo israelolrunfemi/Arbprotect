@@ -1,0 +1,58 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Safety Helmet Pro",
+      "category": "Head Protection",
+      "price": "₦2,500",
+      "image": "/placeholder.svg?height=300&width=300",
+      "description": "Industrial-grade safety helmet with superior impact resistance",
+      "features": ["Impact resistant", "Adjustable fit", "Lightweight design"]
+    },
+    {
+      "id": 2,
+      "name": "High-Visibility Vest",
+      "category": "Visibility Gear",
+      "price": "₦1,800",
+      "image": "/placeholder.svg?height=300&width=300",
+      "description": "Reflective safety vest for maximum visibility in low-light conditions",
+      "features": ["Reflective strips", "Breathable material", "Multiple sizes"]
+    },
+    {
+      "id": 3,
+      "name": "Steel-Toe Work Boots",
+      "category": "Footwear",
+      "price": "₦8,500",
+      "image": "/placeholder.svg?height=300&width=300",
+      "description": "Durable work boots with steel toe protection and slip resistance",
+      "features": ["Steel toe cap", "Oil-resistant sole", "Comfortable padding"]
+    },
+    {
+      "id": 4,
+      "name": "Nitrile Gloves (Box)",
+      "category": "Hand Protection",
+      "price": "₦3,200",
+      "image": "/placeholder.svg?height=300&width=300",
+      "description": "Powder-free nitrile gloves for maximum protection and comfort",
+      "features": ["Latex-free", "Textured grip", "100 gloves per box"]
+    },
+    {
+      "id": 5,
+      "name": "Safety Goggles",
+      "category": "Eye Protection",
+      "price": "₦2,100",
+      "image": "/placeholder.svg?height=300&width=300",
+      "description": "Anti-fog safety goggles with UV protection",
+      "features": ["Anti-fog coating", "UV protection", "Adjustable strap"]
+    },
+    {
+      "id": 6,
+      "name": "Respirator Mask N95",
+      "category": "Respiratory Protection",
+      "price": "₦1,500",
+      "image": "/placeholder.svg?height=300&width=300",
+      "description": "N95 certified respirator mask for particle filtration",
+      "features": ["N95 certified", "Comfortable fit", "Adjustable straps"]
+    }
+  ]
+}
