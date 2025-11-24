@@ -2,57 +2,453 @@
   "products": [
     {
       "id": 1,
-      "name": "Safety Helmet Pro",
+      "name": "Safety Helmets (Original)",
       "category": "Head Protection",
-      "price": "₦2,500",
-      "image": "/placeholder.svg?height=300&width=300",
-      "description": "Industrial-grade safety helmet with superior impact resistance",
-      "features": ["Impact resistant", "Adjustable fit", "Lightweight design"]
+      "price": "₦4,700",
+      "image": "/umit-yildirim-Ass0DusYDk4-unsplash.jpg",
+      "description": "Protects against head injuries, falling objects, and noise hazards.",
+      "features": ["Impact resistant", "Certified original", "Adjustable fit"]
     },
     {
       "id": 2,
-      "name": "High-Visibility Vest",
-      "category": "Visibility Gear",
-      "price": "₦1,800",
+      "name": "Safety Helmets (Standard)",
+      "category": "Head Protection",
+      "price": "₦4,000",
       "image": "/placeholder.svg?height=300&width=300",
-      "description": "Reflective safety vest for maximum visibility in low-light conditions",
-      "features": ["Reflective strips", "Breathable material", "Multiple sizes"]
+      "description": "Protects against head injuries, falling objects, and noise hazards.",
+      "features": ["Impact resistant", "Standard quality", "Lightweight"]
     },
     {
       "id": 3,
-      "name": "Steel-Toe Work Boots",
-      "category": "Footwear",
-      "price": "₦8,500",
+      "name": "Earmuffs (Sub-Original)",
+      "category": "Head Protection",
+      "price": "₦6,500",
       "image": "/placeholder.svg?height=300&width=300",
-      "description": "Durable work boots with steel toe protection and slip resistance",
-      "features": ["Steel toe cap", "Oil-resistant sole", "Comfortable padding"]
+      "description": "Protects against head injuries, falling objects, and noise hazards.",
+      "features": ["Noise reduction", "Comfortable fit", "Adjustable band"]
     },
     {
       "id": 4,
-      "name": "Nitrile Gloves (Box)",
-      "category": "Hand Protection",
-      "price": "₦3,200",
+      "name": "Earmuffs (Original)",
+      "category": "Head Protection",
+      "price": "₦12,000",
       "image": "/placeholder.svg?height=300&width=300",
-      "description": "Powder-free nitrile gloves for maximum protection and comfort",
-      "features": ["Latex-free", "Textured grip", "100 gloves per box"]
+      "description": "Protects against head injuries, falling objects, and noise hazards.",
+      "features": ["Certified original", "Premium noise reduction", "Durable construction"]
     },
     {
       "id": 5,
-      "name": "Safety Goggles",
-      "category": "Eye Protection",
-      "price": "₦2,100",
+      "name": "Face Shields / Visors",
+      "category": "Head Protection",
+      "price": "₦2,000 – ₦2,500",
       "image": "/placeholder.svg?height=300&width=300",
-      "description": "Anti-fog safety goggles with UV protection",
-      "features": ["Anti-fog coating", "UV protection", "Adjustable strap"]
+      "description": "Protects against head injuries, falling objects, and noise hazards.",
+      "features": ["Wide coverage", "Anti-fog option", "Easy attachment"]
     },
     {
       "id": 6,
-      "name": "Respirator Mask N95",
-      "category": "Respiratory Protection",
+      "name": "Welding Goggles / Welding Face Shield",
+      "category": "Head Protection",
+      "price": "₦3,500 – ₦6,000",
+      "image": "/placeholder.svg?height=300&width=300",
+      "description": "Protects against head injuries, falling objects, and noise hazards.",
+      "features": ["UV protection", "Auto-darkening option", "Durable lens"]
+    },
+    {
+      "id": 7,
+      "name": "Safety Goggles – Pack of 12",
+      "category": "Eye & Face Protection",
+      "price": "₦7,200",
+      "image": "/placeholder.svg?height=300&width=300",
+      "description": "Standard PPE category for sight and face protection.",
+      "features": ["Pack of 12", "Anti-fog coating", "Adjustable strap"]
+    },
+    {
+      "id": 8,
+      "name": "Chemical Splash Goggles",
+      "category": "Eye & Face Protection",
+      "price": "₦1,800 – ₦2,500",
+      "image": "/placeholder.svg?height=300&width=300",
+      "description": "Standard PPE category for sight and face protection.",
+      "features": ["Chemical resistant", "Splash protection", "Comfortable seal"]
+    },
+    {
+      "id": 9,
+      "name": "Anti-Fog Industrial Goggles",
+      "category": "Eye & Face Protection",
+      "price": "₦2,200 – ₦3,000",
+      "image": "/placeholder.svg?height=300&width=300",
+      "description": "Standard PPE category for sight and face protection.",
+      "features": ["Anti-fog technology", "Industrial grade", "Durable frame"]
+    },
+    {
+      "id": 10,
+      "name": "Full Face Shield",
+      "category": "Eye & Face Protection",
+      "price": "₦1,800 – ₦2,200",
+      "image": "/placeholder.svg?height=300&width=300",
+      "description": "Standard PPE category for sight and face protection.",
+      "features": ["Full coverage", "Clear visibility", "Easy to clean"]
+    },
+    {
+      "id": 11,
+      "name": "Cloth Gloves – Dozen",
+      "category": "Hand Protection",
+      "price": "₦5,800",
+      "image": "/placeholder.svg?height=300&width=300",
+      "description": "All types of industrial gloves for hand protection.",
+      "features": ["Dozen pairs", "Breathable", "Comfortable fit"]
+    },
+    {
+      "id": 12,
+      "name": "Rubber Gloves – Dozen",
+      "category": "Hand Protection",
+      "price": "₦14,400",
+      "image": "/placeholder.svg?height=300&width=300",
+      "description": "All types of industrial gloves for hand protection.",
+      "features": ["Dozen pairs", "Chemical resistant", "Durable material"]
+    },
+    {
+      "id": 13,
+      "name": "Latex Disposable Gloves (Box)",
+      "category": "Hand Protection",
+      "price": "₦2,500 – ₦3,000",
+      "image": "/placeholder.svg?height=300&width=300",
+      "description": "All types of industrial gloves for hand protection.",
+      "features": ["Box quantity", "Latex material", "Disposable"]
+    },
+    {
+      "id": 14,
+      "name": "Leather Work Gloves",
+      "category": "Hand Protection",
+      "price": "₦2,800 – ₦3,500",
+      "image": "/placeholder.svg?height=300&width=300",
+      "description": "All types of industrial gloves for hand protection.",
+      "features": ["Premium leather", "Durable", "Good grip"]
+    },
+    {
+      "id": 15,
+      "name": "Cut-Resistant Gloves",
+      "category": "Hand Protection",
+      "price": "₦3,500 – ₦5,000",
+      "image": "/placeholder.svg?height=300&width=300",
+      "description": "All types of industrial gloves for hand protection.",
+      "features": ["Cut protection", "Reinforced material", "Flexible design"]
+    },
+    {
+      "id": 16,
+      "name": "Rocklander Safety Boots",
+      "category": "Foot Protection",
+      "price": "₦12,500",
+      "image": "/placeholder.svg?height=300&width=300",
+      "description": "Work boots, safety footwear, rubber boots, and industrial footwear.",
+      "features": ["Steel toe", "Oil resistant", "Comfortable padding"]
+    },
+    {
+      "id": 17,
+      "name": "Armstrong Safety Boots",
+      "category": "Foot Protection",
+      "price": "₦11,500",
+      "image": "/placeholder.svg?height=300&width=300",
+      "description": "Work boots, safety footwear, rubber boots, and industrial footwear.",
+      "features": ["Certified brand", "Durable sole", "Ankle support"]
+    },
+    {
+      "id": 18,
+      "name": "Swag Fit Safety Boots",
+      "category": "Foot Protection",
+      "price": "₦18,000",
+      "image": "/placeholder.svg?height=300&width=300",
+      "description": "Work boots, safety footwear, rubber boots, and industrial footwear.",
+      "features": ["Premium fit", "Steel toe cap", "Anti-fatigue sole"]
+    },
+    {
+      "id": 19,
+      "name": "Rubber Safety Boots (Industrial)",
+      "category": "Foot Protection",
+      "price": "₦10,000",
+      "image": "/placeholder.svg?height=300&width=300",
+      "description": "Work boots, safety footwear, rubber boots, and industrial footwear.",
+      "features": ["Waterproof", "Industrial grade", "Slip resistant"]
+    },
+    {
+      "id": 20,
+      "name": "Non-Safety Rubber Boots (Black)",
+      "category": "Foot Protection",
+      "price": "₦7,500",
+      "image": "/placeholder.svg?height=300&width=300",
+      "description": "Work boots, safety footwear, rubber boots, and industrial footwear.",
+      "features": ["Waterproof", "Black color", "Durable construction"]
+    },
+    {
+      "id": 21,
+      "name": "Non-Safety Rubber Boots (Yellow)",
+      "category": "Foot Protection",
+      "price": "₦8,000",
+      "image": "/placeholder.svg?height=300&width=300",
+      "description": "Work boots, safety footwear, rubber boots, and industrial footwear.",
+      "features": ["Waterproof", "Yellow color", "Easy visibility"]
+    },
+    {
+      "id": 22,
+      "name": "Steel-Toe Boots (General)",
+      "category": "Foot Protection",
+      "price": "₦10,000 – ₦15,000",
+      "image": "/placeholder.svg?height=300&width=300",
+      "description": "Work boots, safety footwear, rubber boots, and industrial footwear.",
+      "features": ["Steel toe cap", "Impact resistant", "Comfortable fit"]
+    },
+    {
+      "id": 23,
+      "name": "PVC Industrial Boots",
+      "category": "Foot Protection",
+      "price": "₦6,500 – ₦8,500",
+      "image": "/placeholder.svg?height=300&width=300",
+      "description": "Work boots, safety footwear, rubber boots, and industrial footwear.",
+      "features": ["PVC material", "Chemical resistant", "Lightweight"]
+    },
+    {
+      "id": 24,
+      "name": "Reflective Safety Vest",
+      "category": "High-Visibility & Body Protection",
       "price": "₦1,500",
       "image": "/placeholder.svg?height=300&width=300",
-      "description": "N95 certified respirator mask for particle filtration",
-      "features": ["N95 certified", "Comfortable fit", "Adjustable straps"]
+      "description": "Reflective, harnesses, coveralls, and body protection gear.",
+      "features": ["High visibility", "Reflective strips", "Breathable material"]
+    },
+    {
+      "id": 25,
+      "name": "Full Body Safety Harness (Single Hook)",
+      "category": "High-Visibility & Body Protection",
+      "price": "₦18,000",
+      "image": "/placeholder.svg?height=300&width=300",
+      "description": "Reflective, harnesses, coveralls, and body protection gear.",
+      "features": ["Single hook point", "Load capacity", "Adjustable straps"]
+    },
+    {
+      "id": 26,
+      "name": "Full Body Safety Harness (Double Hook)",
+      "category": "High-Visibility & Body Protection",
+      "price": "₦40,000",
+      "image": "/placeholder.svg?height=300&width=300",
+      "description": "Reflective, harnesses, coveralls, and body protection gear.",
+      "features": ["Double hook points", "Enhanced safety", "Premium quality"]
+    },
+    {
+      "id": 27,
+      "name": "Disposable Coveralls",
+      "category": "High-Visibility & Body Protection",
+      "price": "₦2,500 – ₦3,500",
+      "image": "/placeholder.svg?height=300&width=300",
+      "description": "Reflective, harnesses, coveralls, and body protection gear.",
+      "features": ["Single use", "Full body coverage", "Easy to wear"]
+    },
+    {
+      "id": 28,
+      "name": "Industrial / Reusable Coveralls",
+      "category": "High-Visibility & Body Protection",
+      "price": "₦6,000 – ₦12,000",
+      "image": "/placeholder.svg?height=300&width=300",
+      "description": "Reflective, harnesses, coveralls, and body protection gear.",
+      "features": ["Reusable", "Durable material", "Multiple sizes"]
+    },
+    {
+      "id": 29,
+      "name": "Raincoat / Rainwear",
+      "category": "High-Visibility & Body Protection",
+      "price": "₦3,500 – ₦7,000",
+      "image": "/placeholder.svg?height=300&width=300",
+      "description": "Reflective, harnesses, coveralls, and body protection gear.",
+      "features": ["Waterproof", "Lightweight", "Easy to carry"]
+    },
+    {
+      "id": 30,
+      "name": "High-Visibility Jackets",
+      "category": "High-Visibility & Body Protection",
+      "price": "₦5,000 – ₦9,500",
+      "image": "/placeholder.svg?height=300&width=300",
+      "description": "Reflective, harnesses, coveralls, and body protection gear.",
+      "features": ["Reflective strips", "Breathable", "Durable zippers"]
+    },
+    {
+      "id": 31,
+      "name": "Aprons (PVC / Leather)",
+      "category": "High-Visibility & Body Protection",
+      "price": "₦2,000 – ₦5,000",
+      "image": "/placeholder.svg?height=300&width=300",
+      "description": "Reflective, harnesses, coveralls, and body protection gear.",
+      "features": ["Chemical resistant", "Durable material", "Adjustable fit"]
+    },
+    {
+      "id": 32,
+      "name": "Dust Masks (N95 / KN95)",
+      "category": "Respiratory Protection",
+      "price": "₦300 – ₦600",
+      "image": "/placeholder.svg?height=300&width=300",
+      "description": "Very important category for PPE suppliers providing respiratory protection.",
+      "features": ["N95/KN95 certified", "Per piece pricing", "Effective filtration"]
+    },
+    {
+      "id": 33,
+      "name": "Half-Face Cartridge Respirator",
+      "category": "Respiratory Protection",
+      "price": "₦10,000 – ₦15,000",
+      "image": "/placeholder.svg?height=300&width=300",
+      "description": "Very important category for PPE suppliers providing respiratory protection.",
+      "features": ["Cartridge replacement", "Multiple size options", "Effective seal"]
+    },
+    {
+      "id": 34,
+      "name": "Full-Face Respirator Mask",
+      "category": "Respiratory Protection",
+      "price": "₦18,000 – ₦30,000",
+      "image": "/placeholder.svg?height=300&width=300",
+      "description": "Very important category for PPE suppliers providing respiratory protection.",
+      "features": ["Full face coverage", "Premium protection", "Comfortable fit"]
+    },
+    {
+      "id": 35,
+      "name": "Ear Muffs (Original)",
+      "category": "Hearing Protection",
+      "price": "₦12,000",
+      "image": "/placeholder.svg?height=300&width=300",
+      "description": "Separates sound-related PPE for easy navigation.",
+      "features": ["Certified original", "Noise reduction", "Comfortable cushioning"]
+    },
+    {
+      "id": 36,
+      "name": "Ear Muffs (Sub-Original)",
+      "category": "Hearing Protection",
+      "price": "₦6,500",
+      "image": "/placeholder.svg?height=300&width=300",
+      "description": "Separates sound-related PPE for easy navigation.",
+      "features": ["Quality protection", "Adjustable band", "Lightweight"]
+    },
+    {
+      "id": 37,
+      "name": "Ear Plugs (Foam / Reusable)",
+      "category": "Hearing Protection",
+      "price": "₦300 – ₦800",
+      "image": "/placeholder.svg?height=300&width=300",
+      "description": "Separates sound-related PPE for easy navigation.",
+      "features": ["Foam or reusable", "Per piece pricing", "Effective seal"]
+    },
+    {
+      "id": 38,
+      "name": "Reflective Tape",
+      "category": "General Safety & Accessories",
+      "price": "₦1,000 – ₦2,000",
+      "image": "/placeholder.svg?height=300&width=300",
+      "description": "Extra industrial accessories and general PPE tools.",
+      "features": ["High visibility", "Adhesive backing", "Weather resistant"]
+    },
+    {
+      "id": 39,
+      "name": "Safety Cones",
+      "category": "General Safety & Accessories",
+      "price": "₦5,000 – ₦8,000",
+      "image": "/placeholder.svg?height=300&width=300",
+      "description": "Extra industrial accessories and general PPE tools.",
+      "features": ["Bright colors", "Durable plastic", "Weather resistant"]
+    },
+    {
+      "id": 40,
+      "name": "Barricade Tape",
+      "category": "General Safety & Accessories",
+      "price": "₦1,200 – ₦1,800",
+      "image": "/placeholder.svg?height=300&width=300",
+      "description": "Extra industrial accessories and general PPE tools.",
+      "features": ["Warning pattern", "Adhesive backing", "High visibility"]
+    },
+    {
+      "id": 41,
+      "name": "Safety Signs & Labels",
+      "category": "General Safety & Accessories",
+      "price": "₦1,000 – ₦5,000",
+      "image": "/placeholder.svg?height=300&width=300",
+      "description": "Extra industrial accessories and general PPE tools.",
+      "features": ["Multiple designs", "Durable material", "Clear messaging"]
+    },
+    {
+      "id": 42,
+      "name": "First Aid Kits (Basic)",
+      "category": "General Safety & Accessories",
+      "price": "₦7,000 – ₦12,000",
+      "image": "/placeholder.svg?height=300&width=300",
+      "description": "Extra industrial accessories and general PPE tools.",
+      "features": ["Complete supplies", "Portable case", "Essential items"]
+    },
+    {
+      "id": 43,
+      "name": "Fire Extinguishers (6kg Dry Chemical)",
+      "category": "General Safety & Accessories",
+      "price": "₦18,000 – ₦25,000",
+      "image": "/placeholder.svg?height=300&width=300",
+      "description": "Extra industrial accessories and general PPE tools.",
+      "features": ["6kg capacity", "Certified", "Easy to use"]
+    },
+    {
+      "id": 44,
+      "name": "Tool Belts",
+      "category": "General Safety & Accessories",
+      "price": "₦3,500 – ₦6,000",
+      "image": "/placeholder.svg?height=300&width=300",
+      "description": "Extra industrial accessories and general PPE tools.",
+      "features": ["Multiple pockets", "Adjustable fit", "Durable material"]
+    },
+    {
+      "id": 45,
+      "name": "Work Belts / Utility Belts",
+      "category": "General Safety & Accessories",
+      "price": "₦2,000 – ₦4,000",
+      "image": "/placeholder.svg?height=300&width=300",
+      "description": "Extra industrial accessories and general PPE tools.",
+      "features": ["Lightweight", "Adjustable", "Multiple compartments"]
+    },
+    {
+      "id": 46,
+      "name": "Ropes & Lanyards",
+      "category": "General Safety & Accessories",
+      "price": "₦1,500 – ₦4,000",
+      "image": "/placeholder.svg?height=300&width=300",
+      "description": "Extra industrial accessories and general PPE tools.",
+      "features": ["Load rated", "Durable material", "Various lengths"]
+    },
+    {
+      "id": 47,
+      "name": "Rain Boots (General)",
+      "category": "General Safety & Accessories",
+      "price": "₦7,000 – ₦10,000",
+      "image": "/placeholder.svg?height=300&width=300",
+      "description": "Extra industrial accessories and general PPE tools.",
+      "features": ["Waterproof", "Comfortable", "Multiple sizes"]
+    },
+    {
+      "id": 48,
+      "name": "Chemical-Resistant Aprons",
+      "category": "General Safety & Accessories",
+      "price": "₦3,000 – ₦6,000",
+      "image": "/placeholder.svg?height=300&width=300",
+      "description": "Extra industrial accessories and general PPE tools.",
+      "features": ["Chemical resistant", "Full coverage", "Adjustable straps"]
+    },
+    {
+      "id": 49,
+      "name": "Knee Pads",
+      "category": "General Safety & Accessories",
+      "price": "₦3,000 – ₦6,000",
+      "image": "/placeholder.svg?height=300&width=300",
+      "description": "Extra industrial accessories and general PPE tools.",
+      "features": ["Cushioned protection", "Adjustable fit", "Durable straps"]
+    },
+    {
+      "id": 50,
+      "name": "Back Support Belts",
+      "category": "General Safety & Accessories",
+      "price": "₦6,000 – ₦12,000",
+      "image": "/placeholder.svg?height=300&width=300",
+      "description": "Extra industrial accessories and general PPE tools.",
+      "features": ["Lumbar support", "Adjustable compression", "Ergonomic design"]
     }
   ]
 }

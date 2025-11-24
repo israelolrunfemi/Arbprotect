@@ -18,12 +18,16 @@ export default function HeroSection() {
 
   // Background slideshow images
   const backgroundImages = [
-        '/Close up hand holding hard hat site construction background ,engineer architecture helmet protect _ Premium Photo.jpg',
+        'tanya-paquet-wjHdeYmI-XU-unsplash.jpg',
         'glenov-brankovic-t9eQm2y1tn8-unsplash.jpg',
         'glenov-brankovic-ZYUcxbMeaIY-unsplash.jpg',
         'jeriden-villegas-VLPUm5wP5Z0-unsplash.jpg',
         'joe-holland-80zZ1s24Nag-unsplash.jpg',
-        'pop-zebra-wp81DxKUd1E-unsplash.jpg'
+        'pop-zebra-wp81DxKUd1E-unsplash.jpg',
+        'eskay-lim-IjFnqf3dPCM-unsplash.jpg',
+        'dokyung-kim-tCVxc2lHd4I-unsplash.jpg',
+        'mina-rad-K9T9hdf4PmI-unsplash.jpg'
+
 
 
         

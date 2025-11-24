@@ -15,13 +15,13 @@ export default function Footer() {
           {/* Company Info */}
           <div>
             <h3 className="font-sans font-bold text-lg mb-4">ARBprotect</h3>
-            <p className="text-sm text-accent/80 mb-4">Leading supplier of premium PPE solutions in Nigeria.</p>
+            <p className="text-sm text-accent/80 mb-4">One Moment. One Mission. Total Protection.</p>
             <div className="flex gap-4">
-              <a href="#" className="text-accent hover:text-primary transition-colors">
-                LinkedIn
+              <a href="https://instagram.com/arb_ppe_supplier" className="text-accent hover:text-primary transition-colors">
+                Instagram
               </a>
-              <a href="#" className="text-accent hover:text-primary transition-colors">
-                Twitter
+              <a href="https://www.arbprotect.com" className="text-accent hover:text-primary transition-colors">
+                Website
               </a>
             </div>
           </div>
@@ -63,8 +63,8 @@ export default function Footer() {
                 </a>
               </li>
               <li>
-                <a href="tel:+2341234567890" className="text-accent/80 hover:text-primary transition-colors">
-                  +234 (0) 123 456 7890
+                <a href="tel:+2348130387564" className="text-accent/80 hover:text-primary transition-colors">
+                  +234 813 038 7564
                 </a>
               </li>
               <li>
@@ -78,9 +78,9 @@ export default function Footer() {
           {/* Contact Info */}
           <div>
             <h4 className="font-sans font-bold text-sm mb-4">Contact</h4>
-            <p className="text-sm text-accent/80 mb-2">Lagos, Nigeria</p>
+            <p className="text-sm text-accent/80 mb-2">37, Irebawa Street, Oke-ira, Aguda, Lagos state, Nigeria</p>
             <p className="text-sm text-accent/80 mb-2">Email: info@arbprotect.com</p>
-            <p className="text-sm text-accent/80">Phone: +234 (0) 123 456 7890</p>
+            <p className="text-sm text-accent/80">Phone: +234 813 038 7564</p>
           </div>
         </div>
 
