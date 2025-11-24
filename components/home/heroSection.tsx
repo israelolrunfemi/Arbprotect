@@ -9,18 +9,24 @@ import { useState, useEffect } from "react"
 import Link from "next/link"
 import { Button } from "@/components/ui/button"
 import { ArrowRight, Play } from "lucide-react"
+import VideoModal from "./videoModal"
 
 export default function HeroSection() {
   const [currentSlide, setCurrentSlide] = useState(0)
+  const [isVideoOpen, setIsVideoOpen] = useState(false)
+
 
   // Background slideshow images
   const backgroundImages = [
         '/Close up hand holding hard hat site construction background ,engineer architecture helmet protect _ Premium Photo.jpg',
-        '/Close up hand holding hard hat site construction background ,engineer architecture helmet protect _ Premium Photo.jpg',
-        '/manhelment.jpg',        
-        '/Close up hand holding hard hat site construction background ,engineer architecture helmet protect _ Premium Photo.jpg',
-        '/Close up hand holding hard hat site construction background ,engineer architecture helmet protect _ Premium Photo.jpg',
+        'glenov-brankovic-t9eQm2y1tn8-unsplash.jpg',
+        'glenov-brankovic-ZYUcxbMeaIY-unsplash.jpg',
+        'jeriden-villegas-VLPUm5wP5Z0-unsplash.jpg',
+        'joe-holland-80zZ1s24Nag-unsplash.jpg',
+        'pop-zebra-wp81DxKUd1E-unsplash.jpg'
 
+
+        
     ]
 
   useEffect(() => {
@@ -38,7 +44,7 @@ export default function HeroSection() {
             key={index}
             className={`absolute inset-0 transition-opacity duration-1000 ${
               index === currentSlide ? "opacity-100" : "opacity-0"
-            }`}
+            } `}
             style={{
               backgroundImage: `url('${image}')`,
               backgroundSize: "cover",
@@ -86,15 +92,13 @@ export default function HeroSection() {
                 Explore Now <ArrowRight size={20} />
               </Link>
             </Button>
-            <Button
-              asChild
-              size="lg"
-              className="border-white/30 text-white hover:bg-white/10 font-sans font-bold bg-transparent"
-            >
-              <Link href="#" className="flex items-center gap-2">
+             <Button
+                size="lg"
+                className="border-white/30 text-white hover:bg-white/10 font-sans font-bold bg-transparent"
+                onClick={() => setIsVideoOpen(true)}
+              >
                 <Play size={20} /> Play Video
-              </Link>
-            </Button>
+              </Button>
           </div>
         </div>
       </div>
@@ -112,6 +116,12 @@ export default function HeroSection() {
           />
         ))}
       </div>
+      {/* Video Modal */}
+      <VideoModal
+        isOpen={isVideoOpen}
+        onClose={() => setIsVideoOpen(false)}
+        videoUrl="https://www.youtube.com/embed/dQw4w9WgXcQ"
+      />
     </section>
   )
 }

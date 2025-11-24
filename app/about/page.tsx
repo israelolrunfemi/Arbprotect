@@ -65,7 +65,7 @@ export default function AboutPage() {
           <div
             className="absolute inset-0"
             style={{
-              backgroundImage: "url('/industrial-ppe-safety-equipment-warehouse.jpg')",
+              backgroundImage: "url('/umit-yildirim-9OB46apMbC4-unsplash.jpg')",
               backgroundSize: "cover",
               backgroundPosition: "center",
             }}

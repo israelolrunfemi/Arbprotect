@@ -4,6 +4,7 @@
  */
 
 import Link from "next/link"
+import Image from "next/image"
 import { Button } from "@/components/ui/button"
 import MobileMenu from "./mobileMenu"
 
@@ -15,7 +16,7 @@ export default function Header() {
           <div className="flex h-16 items-center justify-between">
             {/* Logo */}
             <Link href="/" className="flex items-center gap-2">
-              <span className="font-sans font-bold text-xl text-white">ARBProtect</span>
+              <Image src="/5.png" alt="ARBprotect" width={60} height={60} className="h-16 w-auto" />
             </Link>
 
             <nav className="hidden md:flex items-center gap-6 bg-black/30 rounded-full px-6 py-2">
