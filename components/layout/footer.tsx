@@ -87,7 +87,7 @@ export default function Footer() {
         {/* Divider */}
         <div className="border-t border-accent/20 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center text-sm text-accent/60">
-            <p>&copy; {currentYear} ARBprotect. All rights reserved.</p>
+            <p>&copy; {currentYear} Raceey. All rights reserved.</p>
             <div className="flex gap-6 mt-4 md:mt-0">
               <Link href="#" className="hover:text-primary transition-colors">
                 Privacy Policy
