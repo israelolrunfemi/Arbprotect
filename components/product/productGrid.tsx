@@ -4,7 +4,6 @@
  */
 
 import Link from "next/link"
-import { Button } from "@/components/ui/button"
 
 interface Product {
   id: number
@@ -24,12 +23,13 @@ export default function ProductGrid({ products }: ProductGridProps) {
   return (
     <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
       {products.map((product) => (
-        <div
+        <Link
           key={product.id}
-          className="bg-background border border-border rounded-lg overflow-hidden hover:shadow-lg transition-shadow"
+          href={`/products/${product.id}`}
+          className="block bg-background border border-border rounded-lg overflow-hidden hover:shadow-lg transition-shadow"
         >
           {/* Product Image */}
-          <Link href={`/products/${product.id}`} className="block relative h-64 bg-muted overflow-hidden group">
+          <div className="relative h-64 bg-muted overflow-hidden group">
             <img
               src={product.image || "/placeholder.svg"}
               alt={product.name}
@@ -38,15 +38,13 @@ export default function ProductGrid({ products }: ProductGridProps) {
             <div className="absolute top-4 right-4 bg-primary text-secondary px-3 py-1 rounded-full text-sm font-bold">
               {product.category}
             </div>
-          </Link>
+          </div>
 
           {/* Product Info */}
           <div className="p-6">
-            <Link href={`/products/${product.id}`} className="group">
-              <h3 className="text-lg font-sans font-bold text-secondary mb-2 group-hover:text-primary transition-colors">
-                {product.name}
-              </h3>
-            </Link>
+            <h3 className="text-lg font-sans font-bold text-secondary mb-2 group-hover:text-primary transition-colors">
+              {product.name}
+            </h3>
             <p className="text-muted-foreground text-sm mb-4">{product.description}</p>
 
             {/* Features */}
@@ -62,12 +60,12 @@ export default function ProductGrid({ products }: ProductGridProps) {
             {/* Price & CTA */}
             <div className="flex items-center justify-between">
               <span className="text-2xl font-sans font-bold text-primary">{product.price}</span>
-              <Button asChild size="sm" className="bg-secondary text-accent hover:bg-secondary/90">
-                <Link href={`/products/${product.id}`}>View Details</Link>
-              </Button>
+              <span className="inline-flex items-center justify-center px-3 py-1.5 text-sm font-medium rounded-md bg-secondary text-accent">
+                View Details
+              </span>
             </div>
           </div>
-        </div>
+        </Link>
       ))}
     </div>
   )
